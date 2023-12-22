@@ -132,5 +132,45 @@ ul {
 }
 
 
+/* SITE-HERO */
+
+.site-hero {
+    background-color: var(--dark-blue);
+}
+.site-hero__title {
+    max-width: 339px;
+    width: 100%;
+    color: var(--white);
+    font-family: var(--robotCondesed);
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 48px;
+}
+
+.site-hero__desc {
+    max-width: 387px;
+    width: 100%;
+    color: var(--white);
+    font-family: var(--roboto);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    letter-spacing: 0.5px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.site-hero__img {
+    /* margin-top: 40px; */
+    border-radius: 8px;
+    box-shadow: 24px 24px 0px 0px rgba(255, 117, 0, 0.60);
+    object-fit: cover;
+    transform: translateY(40px);
+}
+
+/* SITE-HERO */
+
+
 
 
